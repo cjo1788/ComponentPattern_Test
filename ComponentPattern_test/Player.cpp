@@ -1,11 +1,11 @@
 #include "Player.h"
 
-#include "ItemComponent.h"
-#include "MissionComponent.h"
+#include "Component/Item/ItemComponent.h"
+#include "Component/Mission/MissionComponent.h"
 
 Player::Player()
 {
-	Initialize();
+	Initialize_Component();
 }
 
 Player::~Player()

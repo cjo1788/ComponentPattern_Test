@@ -139,20 +139,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="InventorySystem.cpp" />
-    <ClCompile Include="ItemComponent.cpp" />
+    <ClCompile Include="Component\Item\ItemComponent.cpp" />
+    <ClCompile Include="Component\Mission\MissionComponent.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="MissionComponent.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="System\Item\InventorySystem.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Component.h" />
-    <ClInclude Include="Global.h" />
-    <ClInclude Include="InventorySystem.h" />
-    <ClInclude Include="ItemComponent.h" />
-    <ClInclude Include="MissionComponent.h" />
+    <ClInclude Include="Common\Global.h" />
+    <ClInclude Include="Common\Struct.h" />
+    <ClInclude Include="Component\Component.h" />
+    <ClInclude Include="Component\Item\ItemComponent.h" />
+    <ClInclude Include="Component\Mission\MissionComponent.h" />
     <ClInclude Include="Player.h" />
-    <ClInclude Include="Struct.h" />
+    <ClInclude Include="System\Item\InventorySystem.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

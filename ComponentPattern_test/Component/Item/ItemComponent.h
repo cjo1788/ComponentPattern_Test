@@ -1,7 +1,8 @@
 #pragma once
 
-#include "Component.h"
-#include "InventorySystem.h"
+#include "../Component.h"
+
+class InventorySystem;
 
 class ItemComponent : public IComponent
 {
@@ -10,7 +11,7 @@ private:
 
 public:
 	ItemComponent();
-	virtual ~ItemComponent();
+	virtual ~ItemComponent() override;
 
 public:
 	InventorySystem* GetInventorySystem();

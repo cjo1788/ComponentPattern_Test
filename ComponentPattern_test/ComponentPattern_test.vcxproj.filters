@@ -39,40 +39,40 @@
     <ClCompile Include="main.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="ItemComponent.cpp">
-      <Filter>Component\Item</Filter>
-    </ClCompile>
     <ClCompile Include="Player.cpp">
       <Filter>Player</Filter>
     </ClCompile>
-    <ClCompile Include="MissionComponent.cpp">
+    <ClCompile Include="Component\Mission\MissionComponent.cpp">
       <Filter>Component\Mission</Filter>
     </ClCompile>
-    <ClCompile Include="InventorySystem.cpp">
+    <ClCompile Include="Component\Item\ItemComponent.cpp">
+      <Filter>Component\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Item\InventorySystem.cpp">
       <Filter>System\Item</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Component.h">
-      <Filter>Component</Filter>
-    </ClInclude>
-    <ClInclude Include="ItemComponent.h">
-      <Filter>Component\Item</Filter>
-    </ClInclude>
     <ClInclude Include="Player.h">
       <Filter>Player</Filter>
     </ClInclude>
-    <ClInclude Include="MissionComponent.h">
+    <ClInclude Include="Common\Global.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Component.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Component\Mission\MissionComponent.h">
       <Filter>Component\Mission</Filter>
     </ClInclude>
-    <ClInclude Include="InventorySystem.h">
+    <ClInclude Include="Component\Item\ItemComponent.h">
+      <Filter>Component\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Struct.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Item\InventorySystem.h">
       <Filter>System\Item</Filter>
-    </ClInclude>
-    <ClInclude Include="Struct.h">
-      <Filter>Common</Filter>
-    </ClInclude>
-    <ClInclude Include="Global.h">
-      <Filter>Common</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,4 +1,5 @@
 #include "ItemComponent.h"
+#include "../../System/Item/InventorySystem.h"
 
 ItemComponent::ItemComponent()
 {

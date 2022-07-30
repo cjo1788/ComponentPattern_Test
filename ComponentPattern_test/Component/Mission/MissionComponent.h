@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Component.h"
+#include "../Component.h"
 
 class MissionComponent : public IComponent
 {
@@ -8,6 +8,6 @@ private:
 
 public:
 	MissionComponent();
-	virtual ~MissionComponent();
+	virtual ~MissionComponent() override;
 };
 
