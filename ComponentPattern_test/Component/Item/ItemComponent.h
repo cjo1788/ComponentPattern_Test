@@ -12,6 +12,8 @@ private:
 public:
 	ItemComponent();
 	virtual ~ItemComponent() override;
+		
+	virtual void Print() override;
 
 public:
 	InventorySystem* GetInventorySystem();

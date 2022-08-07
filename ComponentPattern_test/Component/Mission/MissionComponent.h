@@ -9,5 +9,7 @@ private:
 public:
 	MissionComponent();
 	virtual ~MissionComponent() override;
+
+	virtual void Print() override;
 };
 

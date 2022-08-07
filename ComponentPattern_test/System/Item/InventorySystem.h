@@ -2,8 +2,10 @@
 class InventorySystem
 {
 private:
+	
 
 public:
-
+	InventorySystem() {}
+	~InventorySystem() {}
 };
 
